@@ -1,0 +1,13 @@
+domain: lib
+language: java
+project_name: groovydoc-maven-plugin
+project_slug: groovydoc-maven-plugin
+project_short_description: Maven plugin to allow for inclusion of Gmavenplus generated
+  Groovydocs in project-reports.html
+template_version: '1.0.0 # <<QUBE_NO_BUMP>>'
+template_handle: lib-java
+full_name: Steffen Greiner
+email: Steffen.Greiner@uni-tuebingen.de
+copyright_holder: QBiC
+github_username: Steffengreiner
+version: 1.0.0-SNAPSHOT
