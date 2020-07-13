@@ -53,6 +53,7 @@ To use :code:`groovydoc-maven-plugin` in a project:
 Credits
 -------
 
-This project was created with QUBE_.
+This project was created with `QUBE
+<https://github.com/qbicsoftware/qube>`_.
 It's plugin structure was adapted from the the `Apache Maven report mojo tutorial
 <https://maven.apache.org/guides/plugin/guide-java-report-plugin-development.html>`_.
