@@ -96,49 +96,13 @@
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-enforcer-plugin</artifactId>
-        <version>3.0.0-M2</version>
-        <executions>
-          <execution>
-            <id>enforce-maven</id>
-            <goals>
-              <goal>enforce</goal>
-            </goals>
-            <configuration>
-              <rules>
-                <requireMavenVersion>
-                  <version>[3,)</version>
-                </requireMavenVersion>
-              </rules>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>3.0.0</version>
+        <version>3.1.1</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-site-plugin</artifactId>
         <version>3.7.1</version>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M3</version>
-        <configuration>
-          <excludes>
-            <exclude>**/*IntegrationTest.*</exclude>
-          </excludes>
-          <includes>**/*Test.*</includes>
-          <includes>**/*Specification.*</includes>
-          <includes>**/*Spec.*</includes>
-          <systemPropertyVariables>
-            <jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
-          </systemPropertyVariables>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>org.codehaus.gmavenplus</groupId>
@@ -182,7 +146,6 @@
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-plugin-plugin</artifactId>
       <version>3.5.1</version>
-      <configuration><skipReport>true</skipReport></configuration>
     </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -190,15 +153,7 @@
         <version>3.1.1</version>
         <reportSets>
           <reportSet>
-            <reports>
-              <report>dependencies</report>
-              <report>team</report>
-              <report>mailing-lists</report>
-              <report>ci-management</report>
-              <report>issue-management</report>
-              <report>licenses</report>
-              <report>scm</report>
-            </reports>
+            <reports><report>index</report></reports>
           </reportSet>
         </reportSets>
       </plugin>
@@ -208,6 +163,5 @@
       <version>1.0.2-SNAPSHOT</version>
     </plugin>
   </plugins>
-
 </reporting>
 </project>
