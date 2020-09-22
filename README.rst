@@ -45,7 +45,7 @@ To use :code:`groovydoc-maven-plugin` in a project:
    <plugin>
     <groupId>life.qbic</groupId>
     <artifactId>groovydoc-maven-plugin</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2-SNAPSHOT</version>
    </plugin>
   </plugins>
  </reporting>
