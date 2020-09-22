@@ -14,6 +14,7 @@ This project adheres to `Semantic Versioning <https://semver.org/>`_.
 **Fixed**
 
 **Dependencies**
+
 - Now deployed on the new QBiC repository.
 - Removed the parent pom dependency.
 
