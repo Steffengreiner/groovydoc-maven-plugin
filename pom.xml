@@ -131,40 +131,6 @@
         <artifactId>maven-site-plugin</artifactId>
         <version>3.7.1</version>
       </plugin>
-      <plugin>
-        <groupId>org.codehaus.gmavenplus</groupId>
-        <artifactId>gmavenplus-plugin</artifactId>
-        <version>1.6.3</version>
-        <executions>
-          <execution>
-            <id>default</id>
-            <goals>
-              <goal>addSources</goal>
-              <goal>addTestSources</goal>
-              <goal>generateStubs</goal>
-              <goal>compile</goal>
-              <goal>generateTestStubs</goal>
-              <goal>compileTests</goal>
-              <goal>removeStubs</goal>
-              <goal>removeTestStubs</goal>
-            </goals>
-          </execution>
-          <execution>
-            <id>site</id>
-            <phase>site</phase>
-            <configuration>
-              <groovyDocOutputDirectory>${project.basedir}/target/site/gapidocs
-              </groovyDocOutputDirectory>
-            </configuration>
-            <goals>
-              <goal>generateStubs</goal>
-              <goal>generateTestStubs</goal>
-              <goal>groovydoc</goal>
-              <goal>groovydocTests</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
     </plugins>
   </build>
 <reporting>
