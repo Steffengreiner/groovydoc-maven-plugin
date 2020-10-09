@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>life.qbic</groupId>
   <artifactId>groovydoc-maven-plugin</artifactId>
-  <version>1.0.2-SNAPSHOT</version> <!-- <<QUBE_FORCE_BUMP>> -->
+  <version>1.0.2</version> <!-- <<QUBE_FORCE_BUMP>> -->
   <name>groovydoc-maven-plugin</name>
   <url>http://github.com/qbicsoftware/groovydoc-maven-plugin</url>
   <description>Maven plugin to allow for inclusion of Gmavenplus generated Groovydocs in
