@@ -9,14 +9,9 @@ This project adheres to `Semantic Versioning <https://semver.org/>`_.
 1.0.2 (2020-10-09)
 ------------------
 
-**Added**
-
 **Fixed**
 
-**Dependencies**
-
-**Deprecated**
-
+- Resolve Version conflict between 1.0.2 Snapshot and 1.0.1
 
 1.0.1 (2020-09-22)
 
